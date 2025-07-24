@@ -1,0 +1,75 @@
+{
+  "mod_elements": [
+    {
+      "name": "HangingFlowerPot",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hanging_flower_pot",
+      "metadata": {
+        "files": [
+          "src/main/java/com/oakmods/example/block/HangingFlowerPotBlock.java",
+          "src/main/resources/assets/example/models/block/hanging_flower_pot.json",
+          "src/main/resources/data/example/loot_table/blocks/hanging_flower_pot.json",
+          "src/main/java/com/oakmods/example/block/entity/HangingFlowerPotBlockEntity.java",
+          "src/main/resources/assets/example/items/hanging_flower_pot.json",
+          "src/main/resources/assets/example/models/item/hanging_flower_pot.json",
+          "src/main/resources/assets/example/blockstates/hanging_flower_pot.json"
+        ]
+      }
+    },
+    {
+      "name": "AddFlowerToInventory",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "add_flower_to_inventory",
+      "metadata": {
+        "files": [
+          "src/main/java/com/oakmods/example/AddFlowerToInventory.java"
+        ]
+      }
+    },
+    {
+      "name": "BreakFlowerDisplay",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "break_flower_display",
+      "metadata": {
+        "files": [
+          "src/main/java/com/oakmods/example/BreakFlowerDisplay.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.example.hanging_flower_pot": "Hanging Flower Pot"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "example",
+    "modName": "Oaks Display Example",
+    "version": "1.0.0",
+    "author": "Owner, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.5",
+    "modElementsPackage": "com.oakmods.example"
+  },
+  "mcreatorVersion": 202500113416
+}

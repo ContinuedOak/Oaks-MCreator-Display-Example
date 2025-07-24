@@ -1,0 +1,35 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="Creative Commons Attribution-NonCommercial 3.0"
+
+[[mods]]
+modId="example"
+version="1.0.0"
+displayName="Oaks Display Example"
+displayURL="https://oakmods.com"
+credits="MCreator / ContinuedOak"
+authors="ContinuedOak"
+description="DO NOT DISTURB"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.example]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.5.75,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.example]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.5]"
+    ordering="AFTER"
+    side="BOTH"
+
+
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

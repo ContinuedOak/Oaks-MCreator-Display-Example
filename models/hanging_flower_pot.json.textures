@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "chain": "minecraft:chain",
+        "flowerpot": "minecraft:flower_pot",
+        "dirt": "minecraft:dirt"
+      },
+      "name": "default"
+    }
+  }
+}

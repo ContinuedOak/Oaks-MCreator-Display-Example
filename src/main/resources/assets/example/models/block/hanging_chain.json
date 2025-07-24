@@ -1,0 +1,10 @@
+{
+  "parent": "example:custom/hanging_chain",
+  "textures": {
+    "all": "example:block/chain_pot",
+    "particle": "example:block/chain_pot",
+    "chain": "minecraft:block/chain",
+    "chain_pot": "example:block/chain_pot"
+  },
+  "render_type": "cutout"
+}

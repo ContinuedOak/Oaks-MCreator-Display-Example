@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "chain": "minecraft:chain",
+        "chain_pot": "chain_pot"
+      },
+      "name": "default"
+    }
+  }
+}

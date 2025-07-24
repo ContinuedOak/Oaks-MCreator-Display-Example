@@ -1,0 +1,182 @@
+{
+  "mod_elements": [
+    {
+      "name": "HangingFlowerPot",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hanging_flower_pot",
+      "metadata": {
+        "files": [
+          "src/main/java/com/oakmods/example/block/HangingFlowerPotBlock.java",
+          "src/main/resources/assets/example/models/block/hanging_flower_pot.json",
+          "src/main/resources/data/example/loot_table/blocks/hanging_flower_pot.json",
+          "src/main/java/com/oakmods/example/block/entity/HangingFlowerPotBlockEntity.java",
+          "src/main/resources/assets/example/items/hanging_flower_pot.json",
+          "src/main/resources/assets/example/models/item/hanging_flower_pot.json",
+          "src/main/resources/assets/example/blockstates/hanging_flower_pot.json"
+        ]
+      }
+    },
+    {
+      "name": "AddFlowerToInventory",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "add_flower_to_inventory",
+      "metadata": {
+        "files": [
+          "src/main/java/com/oakmods/example/AddFlowerToInventory.java"
+        ]
+      },
+      "path": "~/Display Code"
+    },
+    {
+      "name": "BreakFlowerDisplay",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "break_flower_display",
+      "metadata": {
+        "files": [
+          "src/main/java/com/oakmods/example/BreakFlowerDisplay.java"
+        ]
+      },
+      "path": "~/Display Code"
+    },
+    {
+      "name": "FlowerDisplayOnBreak",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "flower_display_on_break",
+      "metadata": {
+        "files": [
+          "src/main/java/com/oakmods/example/FlowerDisplayOnBreak.java"
+        ]
+      },
+      "path": "~/Display Code"
+    },
+    {
+      "name": "HangingChain",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hanging_chain",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/example/models/block/hanging_chain.json",
+          "src/main/resources/assets/example/items/hanging_chain.json",
+          "src/main/resources/assets/example/blockstates/hanging_chain.json",
+          "src/main/java/com/oakmods/example/block/HangingChainBlock.java",
+          "src/main/resources/data/example/loot_table/blocks/hanging_chain.json",
+          "src/main/resources/assets/example/models/item/hanging_chain.json"
+        ]
+      }
+    },
+    {
+      "name": "HangingChainNeighbourBlockChanges",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hanging_chain_neighbour_block_changes",
+      "metadata": {
+        "files": [
+          "src/main/java/com/oakmods/example/procedures/HangingChainNeighbourBlockChangesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HangingFlowerPotNeighbourBlockChanges",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hanging_flower_pot_neighbour_block_changes",
+      "metadata": {
+        "files": [
+          "src/main/java/com/oakmods/example/procedures/HangingFlowerPotNeighbourBlockChangesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:HangingChain"
+    ],
+    "BLOCKS:example:hanging_pot": [
+      "CUSTOM:HangingFlowerPot"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.example.hanging_flower_pot": "Hanging Flower Pot",
+      "item.example.hanging_chain": "Chain"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Display Code",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "example",
+    "modName": "Oaks Display Example",
+    "version": "1.0.0",
+    "description": "DO NOT DISTURB",
+    "author": "ContinuedOak",
+    "websiteURL": "https://oakmods.com",
+    "license": "Creative Commons Attribution-NonCommercial 3.0",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.5",
+    "credits": "MCreator / ContinuedOak",
+    "modElementsPackage": "com.oakmods.example"
+  },
+  "mcreatorVersion": 202500113416
+}

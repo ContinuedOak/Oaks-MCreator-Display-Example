@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "example:block/hanging_chain"
+    },
+    "facing=east": {
+      "model": "example:block/hanging_chain",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "example:block/hanging_chain",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "example:block/hanging_chain",
+      "y": 270
+    }
+  }
+}
